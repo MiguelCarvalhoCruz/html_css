@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Droid';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+
+
+body {
+
+    background-color: #6BE3A0;
+    
+    
+}
+
+header {
+
+    background-image: linear-gradient(to top, #419124, #35711F);
+    color: white;
+    font-family: 'Droid', Arial, Helvetica, sans-serif;
+
+    
+}
+
+header > h1 {
+
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+header > p {
+
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+nav {
+
+    padding: 5px;
+}
+
+nav > a {
+
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+ nav > a:hover {
+
+    text-decoration: underline;
+    color: aqua;
+ }
+
+main {
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    width: 900px;
+    border-radius: 10px 10px;
+}
+
+section {
+
+    padding: 10px;
+
+}
+
+section > h2 {
+
+    color: green;
+
+}
+
+section > p {
+
+    text-align: justify;
+}
+
+article {
+
+    background-color: #6BE3A0;
+    border-radius: 10px;
+   
+}
+
+article > h2 {
+
+    color: white;
+    background-color: #35711F;
+    padding: 10px;
+}
+
+article > p {
+
+    text-align: justify;
+    padding: 10px;
+}
+
+footer > p {
+
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
